@@ -1,5 +1,13 @@
 angular.module('starter.services', [])
 
+// recently added YouTube
+// .factory('Recents', function() {
+//   var recents = [{
+        
+//   }];
+
+// });
+
 .factory('Chats', function() {
   // Might use a resource here that returns a JSON array
 
@@ -46,5 +54,5 @@ angular.module('starter.services', [])
       }
       return null;
     }
-  };
-});
+  }; 
+}); // factory Chat
